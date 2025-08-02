@@ -1,0 +1,3 @@
+8bits = 256 values or 1byte 
+because? In binary it means 8 stocks that can have 2 different values
+So 2^8 = 256
