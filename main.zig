@@ -3,5 +3,5 @@ const std = @import("std"); //const std = @import(std); --> Gives an error packa
 pub fn main() !void {
     const stdout = std.io.getStdOut().writer();
 
-    try stdout.print("Hello world\nyesssir", .{});
+    try stdout.print("Hello world\nyesssir", .{}); // If we put spaces after \n it appears on the terminal
 }
